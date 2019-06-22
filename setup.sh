@@ -7,5 +7,3 @@ source ./scripts/symlinks.sh
 echo "Sourcing .zshrc ..."
 source "$HOME/.zshrc"
 echo "Installation complete!"
-
-sleep 5h # Waits 5 hours.
