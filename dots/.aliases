@@ -1,0 +1,5 @@
+# Aliases
+
+# Shortcuts
+alias hs='history | grep'
+alias zshrc="code ~/.zshrc"
