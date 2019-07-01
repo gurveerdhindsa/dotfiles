@@ -2,4 +2,12 @@
 
 # Shortcuts
 alias hs='history | grep'
-alias zshrc="code ~/.zshrc"
+alias c='clear'
+alias cellar='/usr/local/Cellar/'
+
+# Quick add, commit and push on origin branch with Git
+function gq {
+    git add .
+    git commit -m "Quick update"
+    git push origin master
+}
