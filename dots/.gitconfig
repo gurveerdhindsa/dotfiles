@@ -10,3 +10,6 @@
 	email = gurveerdhindsa@hotmail.com
 [commit]
 	template = ~/.gitmessage
+[alias]
+  log = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  undo-commit = reset --soft HEAD~1
